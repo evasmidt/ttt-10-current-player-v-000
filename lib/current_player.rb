@@ -12,7 +12,7 @@
 
 
 def turn_count(board)
-turns_counter = 0
+turns = 0
 board.each do |token|
 if turn == "X" || token == "O"
 turns += 1
