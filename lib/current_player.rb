@@ -13,9 +13,9 @@
 
 def turn_count(board)
 turns_counter = 0
-board.each do |turn|
-if turn == "X" || turn == "O"
-turns_counter += 1
+board.each do |token|
+if turn == "X" || token == "O"
+turns += 1
 end
 end
 turns_counter
