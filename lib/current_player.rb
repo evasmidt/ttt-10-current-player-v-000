@@ -18,7 +18,7 @@ if turn == "X" || token == "O"
 turns += 1
 end
 end
-turns_counter
+turns
 end
 
 
